@@ -1,7 +1,7 @@
 # dscTTU
 A progressive web app for the Developer students club in Taita Taveta University using the Project Vibranium Template
 
-[dscTTU site](https://dsc-ttu.firebaseapp.com)
+[Live site](https://dsc-ttu.firebaseapp.com)
 
 <p align="center">
 <img width="300" height="140"  src="https://github.com/kelvinkamau/Vibranium/blob/master/images/vibranium.png">
