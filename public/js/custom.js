@@ -143,6 +143,23 @@ function subscribeUser() {
           }
       }
   });
+
+  var swiper = new Swiper('.carousel-inner', {
+    direction: 'horizontal',
+    slidesPerView: 1,
+    spaceBetween: 1,
+    parallax: true,
+    breakpoints: {
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 40
+      }
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  });
   /*====================================================*/
   /* TABS INIT                                   */
   /*====================================================*/

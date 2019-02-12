@@ -1067,6 +1067,31 @@ hr{
 }
 
 /*carousel styling*/
+.carousel-control-next-i{
+      position: relative;
+      left: 60%;
+      vertical-align: middle;
+      text-align: center;
+      line-height:45px; 
+      background-color: #3BC1FD;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      right: 350px;
+    }
+
+    .carousel-control-prev-i{
+      position: relative;
+      right: 60%;
+      vertical-align: middle;
+      text-align: center;
+      line-height:45px; 
+      background-color: #3BC1FD;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      
+    }
 @media (min-width: 768px) {
 
     /* show 3 items */
@@ -1083,10 +1108,36 @@ hr{
     }
 
     .carouselPrograms .carousel-inner .carousel-item-next,
-    .carouselPrograms .carousel-inner .carousel-item-prev {
-        position: relative;
-        transform: translate3d(0, 0, 0);
-    }
+   .carouselPrograms .carousel-inner .carousel-item-prev {
+       position: relative;
+       right: 300px;
+       transform: translate3d(0, 0, 0);
+   }
+   .carousel-control-next-i{
+     position: relative;
+     left: 60%;
+     vertical-align: middle;
+     text-align: center;
+     line-height:45px;
+     background-color: #3BC1FD;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     right: 350px;
+   }
+
+   .carousel-control-prev-i{
+     position: relative;
+     right: 60%;
+     vertical-align: middle;
+     text-align: center;
+     line-height:45px;
+     background-color: #3BC1FD;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     left: -100px;
+   }
 
     .carouselPrograms .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
         position: absolute;
