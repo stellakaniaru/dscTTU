@@ -3,7 +3,7 @@
   "display": "standalone",
   "orientation":"portrait",
   "theme_color": "#9932CC",
-  "short_name": "DSC Taita Taveta University",
+  "short_name": "DSC-TTU app",
   "name": "DSC Taita Taveta University",
   "description": "Developer Student Clubs is a Google Developers program for university students to learn mobile and web development skills",
   "lang": "en-US",
